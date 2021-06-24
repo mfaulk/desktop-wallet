@@ -6,7 +6,7 @@ import { CloseWalletModal } from './CloseWalletModal.view';
 
 export default {
   component: CloseWalletModal,
-  title: 'Pages/Dashboard',
+  title: 'Pages/Close Wallet Modal',
 };
 
 const Template: Story<ComponentProps<typeof CloseWalletModal>> = (args) => (

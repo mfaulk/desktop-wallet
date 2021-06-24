@@ -6,7 +6,7 @@ import { CrashShowLog } from './CrashShowLog.view';
 
 export default {
   component: CrashShowLog,
-  title: 'Pages/Dashboard',
+  title: 'Pages/Crash Log',
 };
 
 const Template: Story<ComponentProps<typeof CrashShowLog>> = (args) => <CrashShowLog {...args} />;
