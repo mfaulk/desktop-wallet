@@ -134,7 +134,9 @@ const CreateAccountView: FC<CreateAccountViewProps> = ({
             <Box pt={1} display="flex">
               <Box display="flex" alignItems="center" flexDirection="row-reverse">
                 <Box>
-                  <Typography display="inline">{t('checkSavePassword')}</Typography>
+                  <Typography color="textPrimary" display="inline">
+                    {t('checkSavePassword')}
+                  </Typography>
                 </Box>
                 <Field
                   component={Checkbox}
@@ -154,7 +156,9 @@ const CreateAccountView: FC<CreateAccountViewProps> = ({
             <Box display="flex">
               <Box display="flex" alignItems="center" flexDirection="row-reverse">
                 <Box>
-                  <Typography display="inline">{t('acceptTerms')}</Typography>
+                  <Typography color="textPrimary" display="inline">
+                    {t('acceptTerms')}
+                  </Typography>
                   <Button color="primary" onClick={() => setOpen(true)} id="openTerms">
                     {t('acceptTermsButton')}
                   </Button>
